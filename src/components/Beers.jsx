@@ -20,6 +20,7 @@ export default class Beers extends Component {
     return (
       <div>
         {this.props.dataReady?(this.showBeers()): ("Loading...")}
+        {/* {this.showBeers()} */}
       </div>
     )
   }

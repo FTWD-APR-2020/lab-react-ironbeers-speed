@@ -12,7 +12,6 @@ let allBeersEndpoint = '/'
 
 class App extends Component {
   state = {
-    beers: [],
     dataReady: false
   }
 
